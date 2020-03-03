@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace PHP_DP;
+namespace PHP_DP\Creational\Singleton;
 
 /**
  * Порождающий паттерн.
