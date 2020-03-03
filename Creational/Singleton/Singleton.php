@@ -31,5 +31,4 @@ final class Singleton
     private function __clone(){}
     private function __sleep(){}
     private function __wakeup(){}
-
 }
