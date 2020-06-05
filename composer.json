@@ -1,0 +1,25 @@
+{
+    "name": "yvv/php_design_patterns",
+    "description": "Examples of design patterns",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "yvv",
+            "email": "yvv4recon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/phpunit/phpunit/phpunit -vvv tests/"
+    }
+}
