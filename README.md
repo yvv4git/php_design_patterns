@@ -10,3 +10,11 @@
 Запустить тесты можно так composer test.
 В /tmp появятся отчеты с покрытием кода и другой информацией.
 Настройки прописаны в phpunit.xml.
+
+3. composer.json
+Проект инициализируется так: composer init
+Подключить phpunit можно так: composer require phpunit/phpunit:@stable
+
+4. Composer scripts
+Пакетный менеджер composer позволяет добавлять в него скриты.
+Смотри раздел scripts в файле composer.json.
