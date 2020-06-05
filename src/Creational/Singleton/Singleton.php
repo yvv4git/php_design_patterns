@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace PHP_DP\Creational\Singleton;
+namespace DesignPatterns;
 
 /**
  * Порождающий паттерн.
@@ -17,7 +17,7 @@ final class Singleton
      */
     private static $instance;
 
-    public static function getInstance()
+    public static function getInstance(): Singleton
     {
         if (!isset(self::$instance)) {
             self::$instance = new self();
@@ -26,7 +26,7 @@ final class Singleton
         return self::$instance;
     }
 
-
+    // блокируем методы
     private function __construc(){}
     private function __clone(){}
     private function __sleep(){}

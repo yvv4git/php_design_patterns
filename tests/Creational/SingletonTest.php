@@ -1,7 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace PHP_DP\Creational\Singleton;
+namespace Tests;
 
+use DesignPatterns\Singleton;
 use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
