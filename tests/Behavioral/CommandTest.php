@@ -13,6 +13,7 @@ class CommandTest extends TestCase
     {
         $invoker = new Invoker();
         $receiver = new Receiver();
+        // Получателем может быть свет в комнате, чайник, комп и т.д.
         $invoker->pushCommand(new TurnOnCommand($receiver, 'some_param'));
         $invoker->executeCommand();
         $invoker->pushCommand(new TurnOnCommand($receiver, 'kill', -9));
