@@ -10,19 +10,22 @@ namespace DesignPatterns\Behavioral\ChainOfCommands;
 class FileLogger extends AbstractLogger
 {
     /**
-     * Stub method
+     * Stub метод.
      * @return bool
      */
-    public function canWrite()
+    public function canWrite(): bool
     {
         return true;
     }
     
-    public function handle($message)
+    public function handle($message): bool
     {
         if ($this->canWrite()) {
-            echo "Save message to log file..\n";
+            echo "Save message to log file" . PHP_EOL;
         }
+
+        // Выполняем часть работы из метода абстрактного класса.
+        // Т.е. вызываем метод handle() у инстанса из nextHandler.
         return parent::handle($message);
     }
 }

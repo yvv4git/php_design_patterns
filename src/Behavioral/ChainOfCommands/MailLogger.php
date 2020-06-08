@@ -10,19 +10,22 @@ namespace DesignPatterns\Behavioral\ChainOfCommands;
 class MailLogger extends AbstractLogger
 {
     /**
-     * Stub method
+     * Stub метод.
      * @return bool
      */
-    public function canMail()
+    public function canMail(): bool
     {
         return true;
     }
     
-    public function handle($message)
+    public function handle($message): bool
     {
         if ($this->canMail()) {
             echo 'Send message by email..' . PHP_EOL;
         }
+
+        // Выполняем часть работы из метода абстрактного класса.
+        // Т.е. вызываем метод handle() у инстанса из nextHandler.
         return parent::handle($message);
     }
 }

@@ -14,24 +14,24 @@ abstract class AbstractLogger implements HandlerInterface
      */
     private $nextHandler;
     /**
-     * Sets next handler and returns its instance
+     * Установить следующий обработчик и вернуть инстанс.
      * @param Handler $handler
      * @return Handler
      */
-    public function setNext(HandlerInterface $handler)
+    public function setNext(HandlerInterface $handler): HandlerInterface
     {
         $this->nextHandler = $handler;
         
-        // it will let us link handlers in a convenient way like: $handler->setNext()->setNext()
+        // Это позволяет делать так: $handler->setNext()->setNext()
         return $handler;
     }
     
     /**
-     * Calls next handler if present
+     * Вызываем следующий обработчик.
      * @param $message
      * @return bool
      */
-    public function handle($message)
+    public function handle($message): bool
     {
         if ($this->nextHandler) {
             return $this->nextHandler->handle($message);

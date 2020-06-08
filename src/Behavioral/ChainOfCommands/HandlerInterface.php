@@ -7,6 +7,6 @@ namespace DesignPatterns\Behavioral\ChainOfCommands;
  */
 interface HandlerInterface
 {
-    public function setNext(HandlerInterface $handler);
-    public function handle($message);
+    public function setNext(HandlerInterface $handler): HandlerInterface;
+    public function handle($message): bool;
 }
