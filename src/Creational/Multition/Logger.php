@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Multition;
+namespace DesignPatterns\Creational\Multition;
 
 /**
  * Класс, реализующий паттерн multition.

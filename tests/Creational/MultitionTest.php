@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use DesignPatterns\Multition\FileLogger;
-use DesignPatterns\Multition\Logger;
-use DesignPatterns\Multition\StdoutLogger;
+use DesignPatterns\Creational\Multition\FileLogger;
+use DesignPatterns\Creational\Multition\Logger;
+use DesignPatterns\Creational\Multition\StdoutLogger;
 use PHPUnit\Framework\TestCase;
 
 class MultitionTest extends TestCase
