@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\ObjectPool;
+namespace DesignPatterns\Creational\ObjectPool;
 
 /**
  * Описание продуктов.

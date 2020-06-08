@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\ObjectPool;
+namespace DesignPatterns\Creational\ObjectPool;
 
-use DesignPatterns\ObjectPool\ProductInterface;
+use DesignPatterns\Creational\ObjectPool\ProductInterface;
 
 /**
  * Некоторая реализация паттерна object poll.

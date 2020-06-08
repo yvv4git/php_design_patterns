@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use DesignPatterns\ObjectPool\Factory;
-use DesignPatterns\ObjectPool\Product;
+use DesignPatterns\Creational\ObjectPool\Factory;
+use DesignPatterns\Creational\ObjectPool\Product;
 use PHPUnit\Framework\TestCase;
 
 class ObjectPoolTest extends TestCase
