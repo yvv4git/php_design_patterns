@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use DesignPatterns\Builder\Factory;
-use DesignPatterns\Builder\FirstBuilder;
-use DesignPatterns\Builder\SecondBuilder;
+use DesignPatterns\Creational\Builder\Factory;
+use DesignPatterns\Creational\Builder\FirstBuilder;
+use DesignPatterns\Creational\Builder\SecondBuilder;
 use PHPUnit\Framework\TestCase;
 
 class BuilderTest extends TestCase

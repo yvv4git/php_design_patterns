@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Builder;
+namespace DesignPatterns\Creational\Builder;
 
 /**
  * Абстрактный класс, определяющий, как должен быть реализован класс.
