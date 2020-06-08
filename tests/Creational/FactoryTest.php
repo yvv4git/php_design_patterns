@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use DesignPatterns\Factory\Customer;
-use DesignPatterns\Factory\EmployerFactory;
-use DesignPatterns\Factory\User;
+use DesignPatterns\Creational\Factory\Customer;
+use DesignPatterns\Creational\Factory\EmployerFactory;
+use DesignPatterns\Creational\Factory\User;
 use PHPUnit\Framework\TestCase;
 
 use function PHPUnit\Framework\assertInstanceOf;

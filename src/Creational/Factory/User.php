@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Factory;
+namespace DesignPatterns\Creational\Factory;
 
 /**
  * Конкретная реализация интерфейса EmployerInterface.
