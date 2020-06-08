@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Registry;
+namespace DesignPatterns\Creational\Registry;
 
 class Vesta implements ProductInterface
 {

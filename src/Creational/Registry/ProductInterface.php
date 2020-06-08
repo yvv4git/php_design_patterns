@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Registry;
+namespace DesignPatterns\Creational\Registry;
 
 /**
  * Описываем общий для всех продуктов интерфейс.

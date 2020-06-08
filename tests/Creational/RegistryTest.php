@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use DesignPatterns\Registry\Priora;
-use DesignPatterns\Registry\ProductRegistry;
-use DesignPatterns\Registry\Vesta;
+use DesignPatterns\Creational\Registry\Priora;
+use DesignPatterns\Creational\Registry\ProductRegistry;
+use DesignPatterns\Creational\Registry\Vesta;
 use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase
