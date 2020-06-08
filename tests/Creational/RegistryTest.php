@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\Registry\Priora;
 use DesignPatterns\Creational\Registry\ProductRegistry;

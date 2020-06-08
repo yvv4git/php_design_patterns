@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\Multition\FileLogger;
 use DesignPatterns\Creational\Multition\Logger;

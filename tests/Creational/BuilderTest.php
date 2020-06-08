@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\Builder\Factory;
 use DesignPatterns\Creational\Builder\FirstBuilder;

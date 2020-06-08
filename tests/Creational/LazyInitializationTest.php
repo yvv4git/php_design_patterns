@@ -1,6 +1,6 @@
 <?php
 
-namespace Test;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\LazyInitialization\Factory;
 use PHPUnit\Framework\TestCase;

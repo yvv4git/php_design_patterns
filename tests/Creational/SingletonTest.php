@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\Singleton\Singleton;
 use PHPUnit\Framework\TestCase;

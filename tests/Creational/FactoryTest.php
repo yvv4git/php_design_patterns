@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\Factory\Customer;
 use DesignPatterns\Creational\Factory\EmployerFactory;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\ObjectPool\Factory;
 use DesignPatterns\Creational\ObjectPool\Product;

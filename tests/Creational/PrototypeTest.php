@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Creational;
 
 use DesignPatterns\Creational\Prototype\Factory;
 use DesignPatterns\Creational\Prototype\Priora;
