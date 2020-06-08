@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\LazyInitialization;
+namespace DesignPatterns\Creational\LazyInitialization;
 
 /**
- * Второй продукт.
+ * Первый продукт.
  */
-class SecondProduct implements Product
+class FirstProduct implements Product
 {
 
     /**
@@ -15,6 +15,6 @@ class SecondProduct implements Product
      */
     public function getName(): string
     {
-        return 'Second product';
+        return 'The first product';
     }
 }

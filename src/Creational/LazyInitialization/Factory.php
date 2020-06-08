@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\LazyInitialization;
+namespace DesignPatterns\Creational\LazyInitialization;
 
 /**
  * Есть фабрика, которая умеет возвращать продукты.
