@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use DesignPatterns\Singleton;
+use DesignPatterns\Creational\Singleton\Singleton;
 use PHPUnit\Framework\TestCase;
 
 class SingletonTest extends TestCase
