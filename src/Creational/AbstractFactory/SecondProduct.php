@@ -15,6 +15,6 @@ class SecondProduct implements ProductInterface
      */
     public function getName(): string
     {
-        return 'The product from second factory' . PHP_EOL;
+        return 'The product from second factory';
     }
 }

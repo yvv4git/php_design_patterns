@@ -15,6 +15,6 @@ class FirstProduct implements ProductInterface
      */
     public function getName(): string
     {
-        return 'The product from the first factory' . PHP_EOL;
+        return 'The product from the first factory';
     }
 }

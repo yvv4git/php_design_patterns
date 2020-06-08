@@ -15,7 +15,7 @@ class FirstFactory extends AbstractFactory
      *
      * @return Product
      */
-    public function getProduct()
+    public function getProduct(): ProductInterface
     {
         return new FirstProduct();
     }
