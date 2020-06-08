@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use DesignPatterns\Prototype\Factory;
-use DesignPatterns\Prototype\Priora;
+use DesignPatterns\Creational\Prototype\Factory;
+use DesignPatterns\Creational\Prototype\Priora;
 use PHPUnit\Framework\TestCase;
 
 class PrototypeTest extends TestCase

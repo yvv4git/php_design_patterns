@@ -1,8 +1,6 @@
 <?php
 
-namespace DesignPatterns\Prototype;
-
-use DesignPatterns\Prototype\CarInterface;
+namespace DesignPatterns\Creational\Prototype;
 
 /**
  * Это фабрика, которая должна возвращать клоны
