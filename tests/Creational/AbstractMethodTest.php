@@ -6,7 +6,7 @@ use DesignPatterns\Creational\FactoryMethod\JSONResponse;
 use DesignPatterns\Creational\FactoryMethod\HTMLResponse;
 use PHPUnit\Framework\TestCase;
 
-class FactoryAbstractTest extends TestCase
+class AbstractMethodTest extends TestCase
 {
     /**
      * Тестовые кейсы.
@@ -43,10 +43,6 @@ class FactoryAbstractTest extends TestCase
                 break;
         }
 
-        //echo $response;
-        //$this->assertSame('{"code": 200, "response": "some input data"}', $response);
-        //$this->assertSame($expected, $response);
-        //$this->assertSame('<html>some input data</html>', '<html>some input data</html>');
-        $this->assertSame($response, $expected);
+        $this->assertSame((string)$response, $expected);
     }
 }
