@@ -18,9 +18,12 @@ class VisitorTest extends TestCase
 
         // предаем управление посетителям
         $actualReportJson = $report->accept(new JsonExportVisitor());
-        $actualReportXml = $report->accept(new XmlExportVisitor()) . PHP_EOL;
-        $actualTemplateJson = $template->accept(new JsonExportVisitor()) . PHP_EOL;
+        $actualReportXml = $report->accept(new XmlExportVisitor());
+        $actualTemplateJson = $template->accept(new JsonExportVisitor());
 
-        //$this->assertTrue(39, mb_strlen($actualReportJson));
+        // проверка
+        $this->assertSame('"report_title {diagram} report_content"', $actualReportJson);
+        $this->assertSame(124, (int)mb_strlen($actualReportXml));
+        $this->assertSame('"{header}template_title template_content{footer}"', $actualTemplateJson);
     }
 }
