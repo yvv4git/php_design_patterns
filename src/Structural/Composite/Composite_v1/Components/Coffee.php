@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Stuctural\Composite\Components;
+namespace DesignPatterns\Stuctural\Composite_v1\Composite\Components;
 
 class Coffee implements ComponentInterface
 {

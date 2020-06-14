@@ -2,10 +2,10 @@
 
 namespace Tests\Structural;
 
+use DesignPatterns\Stuctural\Composite_v1\Composite\CoffeMashine;
+use DesignPatterns\Stuctural\Composite_v1\Composite\Components\Сream;
+use DesignPatterns\Stuctural\Composite_v1\Composite\Components\Coffee;
 use PHPUnit\Framework\TestCase;
-use DesignPatterns\Stuctural\Composite\CoffeMashine;
-use DesignPatterns\Stuctural\Composite\Components\Сream;
-use DesignPatterns\Stuctural\Composite\Components\Coffee;
 
 class CompositeTest extends TestCase
 {

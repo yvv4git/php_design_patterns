@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Stuctural\Composite;
+namespace DesignPatterns\Stuctural\Composite_v1\Composite;
 
-use DesignPatterns\Stuctural\Composite\Components\ComponentInterface;
+use DesignPatterns\Stuctural\Composite_v1\Composite\Components\ComponentInterface;
 
 class CoffeMashine
 {
