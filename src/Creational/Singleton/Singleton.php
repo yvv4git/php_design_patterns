@@ -27,7 +27,7 @@ final class Singleton
     }
 
     // блокируем методы
-    private function __construc(){}
+    private function __construct(){}
     private function __clone(){}
     private function __sleep(){}
     private function __wakeup(){}
