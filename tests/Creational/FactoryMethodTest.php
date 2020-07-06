@@ -6,7 +6,7 @@ use DesignPatterns\Creational\FactoryMethod\JSONResponse;
 use DesignPatterns\Creational\FactoryMethod\HTMLResponse;
 use PHPUnit\Framework\TestCase;
 
-class AbstractMethodTest extends TestCase
+class FactoryMethodTest extends TestCase
 {
     /**
      * Тестовые кейсы.
